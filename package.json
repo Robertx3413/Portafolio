@@ -1,14 +1,16 @@
 {
-  "name": "Portafolio",
+  "name": "portafolio",
   "version": "1.0.0",
-  "description": "Portafolio Web",
+  "description": "Portafolio Web desarrollado con Tailwind CSS",
   "main": "index.js",
   "scripts": {
-    "test": "npx tailwindcss -i ./src/input.css -o ./src/styles.css --watch"
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/styles.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./src/styles.css --watch",
+    "test": "echo \"No test specified\" && exit 1"
   },
   "author": "Roberto Mora",
   "license": "ISC",
-  
+  "keywords": ["portafolio", "tailwindcss", "web"],
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
